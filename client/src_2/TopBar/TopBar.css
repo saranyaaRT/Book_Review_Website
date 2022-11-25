@@ -1,0 +1,61 @@
+.top{
+    width: 100%;
+    height: 75px;
+    background-color: deepskyblue;
+    position: sticky;
+    top: 0;
+    display: flex; 
+    /* horizontally */
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    z-index: 999;
+}
+
+.topleft{
+    flex:3;
+    
+}
+.topright{
+    flex:3;
+    display: flex;
+    align-items: center;
+
+}
+.topcenter{
+    flex:6;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.topProfileImg{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 30px;
+    object-fit: cover;
+}
+.topIcon{
+    font-size: 30px;
+    margin-right: 10px;
+    color: blue;
+    cursor: pointer;
+}
+.topList{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.topListItem{
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+}
+.topSearchIcon{
+    font-size: 30px;
+    color:blue;
+    cursor:pointer;
+    margin-right: 35px;
+}
